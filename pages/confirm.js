@@ -42,6 +42,8 @@ function Confirm() {
     <li>taxi 2</li>
     <li>taxi 3</li>
     <li>taxi 4</li>
+    <li>taxi 4</li>
+
 
 </ul>
 <Button>Make Order</Button>
