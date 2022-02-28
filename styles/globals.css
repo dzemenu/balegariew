@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+.mapboxgl-ctrl-geocoder{
+border-radius: 15px !important;
+background-color: yellow !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

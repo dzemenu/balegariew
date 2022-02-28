@@ -1,0 +1,6 @@
+{
+	"appId": "com.balegariew.app",
+	"appName": "balegariew",
+	"webDir": "out",
+	"bundledWebRuntime": false
+}
