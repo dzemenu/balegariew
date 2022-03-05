@@ -7,6 +7,8 @@ import mapboxgl from "!mapbox-gl";
 import "@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder";
+import {signOut} from 'firebase/auth'
+import {auth} from '../firebase'
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZHplbWVudSIsImEiOiJja3lteHlicHAyY3IyMnZwMGJjczlkcWJvIn0.DptAsDX-6_E2EzBXS5RhXw";
 const Search = () => {
@@ -54,7 +56,7 @@ setDestinationName(k)
     <MainDiv>
       <MainHeader>
         <Link href={{ pathname: "/" }}>
-          <ArrowButton>
+          <ArrowButton onClick={()=>signOut(auth)}>
             <FaArrowCircleLeft />
           </ArrowButton>
         </Link>

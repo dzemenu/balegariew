@@ -28,14 +28,16 @@ export default function Home() {
     })
   },[])
   return (
-    <Div>
+    
+    <Div >
       <Logo>BALEGARIEW</Logo>
       <Button onClick={()=>signInWithPopup(auth,provider)}>Sign in With Google</Button>
   </Div>
+
   )
 }
 const Div=tw.div`
-bg-slate-500 h-screen w-screen flex flex-col justify-center items-center rounded-lg`
+bg-gradient-to-r from-slate-500 to-slate-300 h-screen w-screen flex flex-col justify-center items-center rounded-lg `
 const Logo=tw.h1`
 text-center text-white text-5xl shadow-2xl  rounded-lg`
 const Button=tw.button` w-2/3 h-12  text-white rounded-lg shadow-2xl border-teal-600	mt-10 bg-black`

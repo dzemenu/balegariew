@@ -19,6 +19,7 @@ border-radius: 15px !important;
 background-color: greenyellow !important;
 height: 45px !important;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
