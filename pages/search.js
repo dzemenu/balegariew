@@ -51,7 +51,7 @@ setDestinationName(k)
       });
     }
   }, []);
- var userName=router.query ?  router.query.name.split(' ')[0] :'';
+ var userName=router.query!=undefined ?  router.query.name.split(' ')[0] :'';
   return (
     <MainDiv>
       <MainHeader>
