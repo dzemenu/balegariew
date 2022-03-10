@@ -4,6 +4,7 @@ import {FaFacebook,FaWhatsapp} from 'react-icons/fa'
 const sendDriver = () => {
   return (
     <Wrapper>
+      <DriverName>BALEGARIEW</DriverName>
         <DriverName> Mr Ermias Zeleke on they way </DriverName>
         <DriverImage src='/driver.png'></DriverImage>
         <IconList>
