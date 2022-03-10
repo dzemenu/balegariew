@@ -51,7 +51,7 @@ setDestinationName(k)
       });
     }
   }, []);
- var userName=router.query!=undefined ?  router.query.name.split(' ')[0] :'';
+ //var userName=router.query!=undefined ?  router.query.name.split(' ')[0] :'';
   return (
     <MainDiv>
       <MainHeader>
@@ -60,7 +60,7 @@ setDestinationName(k)
             <FaArrowCircleLeft />
           </ArrowButton>
         </Link>
-        <MainCustomerTitle>{userName.toUpperCase()}</MainCustomerTitle>
+        <MainCustomerTitle>{ router.query.name.toUpperCase()}</MainCustomerTitle>
       </MainHeader>
       <MainMap id="map"></MainMap>
       <WhereMap>
