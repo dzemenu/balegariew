@@ -60,7 +60,7 @@ setDestinationName(k)
             <FaArrowCircleLeft />
           </ArrowButton>
         </Link>
-        <MainCustomerTitle>{ router.query.name.toUpperCase()}</MainCustomerTitle>
+        <MainCustomerTitle>{ router.query.name}</MainCustomerTitle>
       </MainHeader>
       <MainMap id="map"></MainMap>
       <WhereMap>
