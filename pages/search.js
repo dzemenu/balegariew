@@ -10,7 +10,7 @@ import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder";
 import {signOut} from 'firebase/auth'
 import {auth} from '../firebase'
 mapboxgl.accessToken =
-  "pk.eyJ1IjoiZHplbWVudSIsImEiOiJja3lteHlicHAyY3IyMnZwMGJjczlkcWJvIn0.DptAsDX-6_E2EzBXS5RhXw";
+  "pk.eyJ1IjoiZHplbWVudSIsImEiOiJjbDU5OTdpYWcwYmY4M2JwNHFiZ2I5M2ZmIn0.iPWFLHBElE0lZSCp4MNlGQ";
 const Search = () => {
   const [destination, setDestination] = useState([]);
   const[destinationName,setDestinationName]=useState('')

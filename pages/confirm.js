@@ -76,7 +76,7 @@ function Confirm() {
           :$97:.55
         </Li>
       </ul>
-      <Button>Make Order</Button>
+      <Button onClick={()=>router.push('/sendDriver')}>Make Order</Button>
     </Wrapper>
   );
 }
@@ -98,4 +98,4 @@ const IconImage = tw.div`
 h-20 w-20 text-green-500 rounded-full`;
 var taxiData = [];
 const Li = tw.button`
-flex  content-evenly		space-between items-center shadow-xl w-screen z-50 shadow-green-500/50`;
+flex  content-evenly		space-between items-center shadow-xl w-screen z-50 `;
